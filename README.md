@@ -31,3 +31,7 @@ How to make into .exe
 - Goto registry editor
 - Goto Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
 - Delete entry CLPPTH
+---
+**Example of usage - sorry for low res video - github shitty 10mb max video upload**
+https://github.com/3022-2/crypto-clipper/assets/82278708/9bfbd0a6-e0e6-41e1-84fa-50aa55f9d813
+
