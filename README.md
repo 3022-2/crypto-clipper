@@ -37,4 +37,4 @@ How to make into .exe
 **Example of usage - sorry for low res video - github shitty 10mb max video upload**
 https://github.com/3022-2/crypto-clipper/assets/82278708/9bfbd0a6-e0e6-41e1-84fa-50aa55f9d813
 ## **contact**
-**I can be contacted at the following telegram for programming and other sevices: @johnnydoe0**
+**I can be contacted at the following telegram for programming for pay: @johnnydoe0**
