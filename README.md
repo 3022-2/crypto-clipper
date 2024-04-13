@@ -1,4 +1,4 @@
-# crypto clipper - USE MAIN.PYW AS EXE FOR STEALTH AS IT DOESNT HAVE TERMINAL (NO ONE WILL KNOW ITS RUNNING)
+# crypto clipper - USE MAIN.PYW AS EXE FOR STEALTH AS IT DOESNT HAVE TERMINAL (RUNS IN BACKGROUND HIDDEN)
 **BTC, ETH, LTC, XMR clipper written in python using no external packages. ONLY WORKS ON WINDOWS**
 ---
 **Features**
@@ -8,6 +8,8 @@
 - Duplicates and adds to startup with registry
 - Uses powershell to read and set clipboard
 - Has an uninstaller
+- If single_use is True and a address has been copied the program will exit.
+- If single_use is True and the computer restarts the registry (startup) entry will be removed
 ---
 How to make into .exe
 ```console
