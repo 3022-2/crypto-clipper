@@ -1,4 +1,4 @@
-# crypto clipper
+# crypto clipper - USE main.pyw as .exe for stealth
 **BTC, ETH, LTC, XMR clipper written in python using no external packages. ONLY WORKS ON WINDOWS**
 ---
 **Features**
