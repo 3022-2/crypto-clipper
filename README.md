@@ -19,7 +19,7 @@ How to make into .exe
 
 # when .exe is ran it will duplicate, add to startup and monitor clipboard. You can rename and change icon of the exe. 
 
-# if computer is turned on and off/restarted the program will run as the task "clppth.exe".
+# if computer is turned on and off/restarted the program will run at startup as the task "clppth.exe".
 ```
 ---
 **The .exe may need to be run with realtime protection off on antivirus**
