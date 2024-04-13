@@ -27,6 +27,7 @@ How to make into .exe
 
 # if computer is turned on and off/restarted the program will run at startup as the task "clppth.exe".
 ```
+**DISCLAIMER: The code provided in this repository is intended for educational and malware analysis purposes only. Any use of this code for illegal or unethical activities is strictly prohibited. The author of this code shall not be held responsible for any misuse or damage resulting from its use. Users are solely responsible for ensuring compliance with applicable laws and ethical standards.**
 ---
 **The .exe may need to be run with realtime protection off on antivirus**
 ---
