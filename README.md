@@ -11,10 +11,9 @@
 - If single_use is True and a address has been copied the program will exit.
 - If single_use is True and the computer restarts the registry (startup) entry will be removed
 ---
-**
-Before .exe - https://www.virustotal.com/gui/file/ebac6103848d1089284ef9a258ec31e85218a79265bde04d96f22e1c19c6d953/summary - 0/60 detections
-As .exe - https://www.virustotal.com/gui/file/f54cc1163e9268176544ea8774a2b7b72e98f20483f331cadf5ed9646d13b688/summary - 12/70 detections
-**
+**Before .exe - [virustotal](https://www.virustotal.com/gui/file/ebac6103848d1089284ef9a258ec31e85218a79265bde04d96f22e1c19c6d953/summary) - 0/60 detections**
+---
+**As .exe - [virustotal](https://www.virustotal.com/gui/file/f54cc1163e9268176544ea8774a2b7b72e98f20483f331cadf5ed9646d13b688/summary) - 12/70 detections**
 ---
 How to make into .exe
 ```console
