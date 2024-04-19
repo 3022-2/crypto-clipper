@@ -1,6 +1,8 @@
 # Windows crypto clipper - USE MAIN.PYW AS EXE FOR STEALTH AS IT DOESNT HAVE TERMINAL (RUNS IN BACKGROUND HIDDEN)
 **BTC, ETH, LTC, XMR clipper written in python using no external packages. ONLY WORKS ON WINDOWS**
 ---
+**WARNING: THIS IS MALWARE DESIGNED FOR STEALING CRYPTOCURRENCY. USE UNINSTALL GUIDE IF UNINSTALL CODE FAILS. (not found error doesn't necessarily mean didnt uninstall)**
+---
 **Features**
 - Supports Bitcoin, Ethereum, Litecoin, Monero
 - Has a single use option. (Will only ever clip once and then never again, kind of like a stealth mode)
